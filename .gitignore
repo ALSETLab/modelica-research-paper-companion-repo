@@ -1,0 +1,6 @@
+# Packaged plugin build artifact
+*.plugin
+
+# OS junk
+.DS_Store
+Thumbs.db
