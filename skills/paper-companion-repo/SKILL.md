@@ -28,14 +28,14 @@ Then confirm which of the four steps to run. Default to the README.
 
 ## Step 1 — Write the README
 
-Read `references/readme-structure.md` for the full section template and the baked-in conventions (badges, shallow-clone + Windows MAX_PATH warning, shields.io DOI badge, under-review citation handling, optional-checks block, acknowledgments).
+Read `references/readme-structure.md`. It is organized as a **Core** template (every Modelica library / research repo) plus an **eFMI / embedded add-on**. First decide the project profile, then assemble only the applicable sections — do not force eFMI, hardware, or code-generation sections onto a pure Modelica library.
 
 Process:
 
 1. Read the paper; pull the facts listed above.
 2. Map the repo: top-level folders, the Modelica library sub-packages (read `package.order`/`package.mo`), submodules, and `.git` size.
-3. Cross-reference: describe only what the paper and current repo actually contain. Verify every path, package name, and identifier against the repo before writing it — do not carry stale names from an old README.
-4. Write the README section by section per the template. Use GitHub callouts (`[!WARNING]`, `[!NOTE]`). Render the workflow as a Mermaid `flowchart`.
+3. Cross-reference: describe only what the paper and current repo actually contain. Verify every path, package name, and identifier against the repo before writing it — do not carry stale names from an old README. Open example/model files to confirm they are real, not empty stubs.
+4. Choose the profile — Core only vs Core + eFMI add-on — from the paper and repo: eFMU configurations, an `STM32/` folder, or hardware boards signal the eFMI add-on; otherwise Core only. Then write the README section by section per the applicable profile, using GitHub callouts (`[!WARNING]`, `[!NOTE]`) and a Mermaid `flowchart` for the workflow/concept diagram.
 5. If a requirement depends on a library you can read locally (e.g. `DymolaEmbedded.UsersGuide.Requirements`), read it rather than guessing — it is the authoritative source.
 6. Save the README into the repo, then show it with the file-presentation tool.
 

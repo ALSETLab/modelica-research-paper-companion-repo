@@ -1,6 +1,6 @@
 {
   "name": "modelica-research-paper-companion-repo",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Turn a research paper and its code repository into a polished, citable, archived open-source companion: a README written from the paper, a CITATION.cff, a Zenodo DOI, and a propose-first repo cleanup. Tuned for ALSETLab Modelica/Dymola/OpenIPSL projects.",
   "author": { "name": "Luigi Vanfretti (ALSETLab, RPI)" },
   "license": "BSD-3-Clause",
