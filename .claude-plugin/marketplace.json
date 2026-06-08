@@ -1,0 +1,18 @@
+{
+  "name": "alsetlab-research-tools",
+  "owner": {
+    "name": "ALSETLab (Luigi Vanfretti)",
+    "url": "https://alsetlab.github.io/"
+  },
+  "metadata": {
+    "description": "ALSETLab plugins for preparing research-paper companion repositories.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "modelica-research-paper-companion-repo",
+      "source": "./",
+      "description": "Turn a research paper and its code repository into a polished, citable, archived open-source companion: README, CITATION.cff, Zenodo DOI, and a propose-first repo cleanup. Tuned for ALSETLab Modelica/Dymola/OpenIPSL/eFMI projects."
+    }
+  ]
+}
